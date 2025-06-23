@@ -1,2 +1,3 @@
-# codeforcescp31-sheet-solution
+# Competetive programming work...
+codeforces/codeshef/rated work
 use it as a hint
