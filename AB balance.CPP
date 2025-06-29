@@ -1,5 +1,7 @@
 #include<iostream>
-using namespace std;
+using namespace std
+// AUTHOR:->Ayush Kumar Gupta
+//      !!CHESS & CODE!!
 int main(){
     int num,rem,ans;
     ans=0;
