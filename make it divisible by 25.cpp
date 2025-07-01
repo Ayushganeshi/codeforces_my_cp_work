@@ -1,5 +1,7 @@
 #include<iostream>
 using namespace std;
+//AUTHOR:AYUSH KUMAR GUPTA
+//!! CHESS && CODE!!
 int main()
 {
     int arr[5]={4,56,34,9,12};
