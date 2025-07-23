@@ -3,7 +3,8 @@ using namespace std
 // AUTHOR:->Ayush Kumar Gupta
 //      !!CHESS & CODE!!
 int main(){
-    int num,rem,ans;
+    int num,rem;
+    int ans;
     ans=0;
     cin>>num;
     while(num>0)
