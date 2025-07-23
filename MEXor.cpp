@@ -8,7 +8,7 @@ using namespace std;
 //       !! CHESS & CODE!!
 
 void solve() {
-    int mex, x;
+    int mex,x;
     cin >> mex >> x;
 
     int c = 0;
