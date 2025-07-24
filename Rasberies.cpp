@@ -8,7 +8,7 @@ using namespace std;
 
 void solve() {
     int n, k;
-    cin >> n >> k;
+    cin >> n >>k;
     int mini = INT_MAX, op;
     int eve = 0;
 
