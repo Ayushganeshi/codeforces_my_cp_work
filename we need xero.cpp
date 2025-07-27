@@ -6,14 +6,12 @@ using namespace std;
 //  AUTHOR:->Ayush Kumar Gupta 
 //       !! CHESS & CODE!! 
 
-// We Need the Zero
-// https://codeforces.com/contest/1805/problem/A
 
 void solve() {
     int n;
     cin >> n;
     int ans = 0;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i <n; i++) {
         int x;
         cin >> x;
         ans ^= x;
