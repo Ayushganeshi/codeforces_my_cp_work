@@ -13,7 +13,7 @@ void solve() {
     vector<int> a1x(f1x37), pm9x(f1x37), ps9x(f1x37);
 
     for (int i = 0; i < f1x37; i++) {
-        cin >> a1x[i];
+        cin >>a1x[i];
     }
 
     pm9x[0] = a1x[0];
