@@ -11,7 +11,7 @@ void solve() {
     cin >> n;
     int k = n;
     vector<int> res;
-    int mini = INT_MAX;
+    int mini =INT_MAX;
 
     while (n--) {
         int m;
@@ -29,7 +29,7 @@ void solve() {
             }
         }
 
-        mini = min(mini, fmin);
+        mini = min(mini,fmin);
         res.push_back(smin);
     }
 
