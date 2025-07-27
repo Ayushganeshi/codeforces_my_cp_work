@@ -7,7 +7,7 @@ void solve() {
 
     while (testCases--) {
         int n;
-        cin >> n;
+        cin >>n;
 
         long long total = 0;
         for (int i = 0; i < n; ++i) {
