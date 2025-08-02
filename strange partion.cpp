@@ -8,7 +8,7 @@ using namespace std;
 
 void solve() {
     int n, x;
-    cin >> n >> x;
+    cin >> n>> x;
 
     int sum = 0, mini = 0;
     for (int i = 0; i < n; i++) {
@@ -36,3 +36,4 @@ int32_t main() {
 
     return 0;
 }
+
