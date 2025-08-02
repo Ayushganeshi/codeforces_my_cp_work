@@ -10,7 +10,8 @@ using namespace std;
 
 int prime(int n) { 
     if(n == 2 || n == 3) return n;
-    if(n % 2 == 0) ++n;
+    if(n % 2 == 0) 
+        ++n;
     while (true) {
         bool isPrime = true;
         for (int i = 3; i * i <= n; i += 2) {
@@ -43,3 +44,4 @@ int32_t main() {
 
     return 0;
 }
+
