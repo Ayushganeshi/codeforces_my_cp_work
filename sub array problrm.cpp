@@ -22,7 +22,7 @@ using namespace std;
 
 vector<int> read(int n) {
     vector<int> arr(n);
-    for (int i = 0; i < n; i++) cin >> arr[i];
+    for (int i = 0; i <n; i++) cin >> arr[i];
     return arr;
 }
 
@@ -83,3 +83,4 @@ int32_t main() {
 
     return 0;
 }
+
