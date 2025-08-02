@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int na;
-    cin>>na;
+    cin>> na;
     vector<int>a;
     for(int i=0;i<n;i++)
     {
@@ -16,3 +16,4 @@ int main()
         cout<<a[i]<<" ";
     }
 }
+
