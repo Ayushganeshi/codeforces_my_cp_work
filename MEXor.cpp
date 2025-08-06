@@ -18,7 +18,7 @@ void solve() {
     int rem = (mex - 1) % 4;
     if (rem == 0) xor_all = (mex - 1);
     else if (rem == 1) xor_all = 1;
-    else if (rem == 2) xor_all = (mex - 1) + 1;
+    else if (rem == 2) xor_all   = (mex - 1) + 1;
     else xor_all = 0;
 
     int temp = xor_all ^ x;
@@ -42,3 +42,4 @@ int32_t main() {
 
     return 0;
 }
+
