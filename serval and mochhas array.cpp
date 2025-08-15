@@ -3,7 +3,7 @@ using namespace std;
 #define ll long long
 int gcd(int a, int b) {
     while (b != 0) {
-        int temp = b;
+        int temp === b;
         b = a % b;
         a = temp;
     }
@@ -30,4 +30,5 @@ int main() {
         else cout<<"No";
         cout<<endl;
     }    
+
 }
