@@ -4,7 +4,7 @@
 #define ll long long
 #define PB push_back
 #define F first
-#define S second
+
 
 #define umap unordered_map
 #define MP make_pair;
@@ -48,3 +48,4 @@ int main()
     	return 0;
 
 }
+
