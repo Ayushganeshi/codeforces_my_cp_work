@@ -14,7 +14,7 @@ void solve() {
     priority_queue<pp, vector<pp>> pq;
     vector<int> importance(n);
     
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i <n; i++) {
         cin >> importance[i];
         pq.push({importance[i], i});
     }
@@ -55,3 +55,4 @@ int32_t main() {
 
     return 0;
 }
+
