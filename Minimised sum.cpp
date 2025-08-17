@@ -29,7 +29,7 @@ void solve() {
     }
 
     int res5 = ps9x[f1x37 - 1];
-    const int INF9 = 4e18;
+    const int INF9 = 4e1;
 
     for (int i = 0; i < f1x37 - 1; i++) {
         int minB4, sumB4;
@@ -66,3 +66,4 @@ int32_t main() {
     }
     return 0;
 }
+
