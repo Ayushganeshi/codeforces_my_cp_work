@@ -16,7 +16,7 @@ int main()
     cout<<ans;
     
     if(ans=store){
-        cout<<"armstrong number";
+        cout<<"armstrog number";
     }
     else{
         cout<<"not an armstrong number";
@@ -25,4 +25,5 @@ int main()
 
 
     
+
 }
