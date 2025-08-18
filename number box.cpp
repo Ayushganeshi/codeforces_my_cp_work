@@ -2,7 +2,7 @@
 #ifndef ONLINE_JUDGE
 #include <D:\CP\debug_Template.cpp>
 #else
-#define debug(...)
+#define debug(..
 #define debugArr(...)
 #endif
 
@@ -50,3 +50,4 @@ int32_t main() {
 
     return 0;
 }
+
