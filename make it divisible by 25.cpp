@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 //AUTHOR:AYUSH KUMAR GUPTA
-//!! CHESS && CODE!!
+
 int main()
 {
     int arr[5]={4,56,34,9,12};
@@ -26,3 +26,4 @@ for(int i=1;i<5;i++)
 }
 cout<<"second largest element in the array in the element is :"<<seclargest<<endl;
 }
+
