@@ -21,7 +21,7 @@ void solve() {
     int move1 = abs(x * diff - a);
     int move2 = abs((x + 1) * diff - a);
 
-    cout << diff << " " << min(move1, move2) <<endl;
+    cout << diff << " " << min(move1,move2) <<endl;
 }
 
 int32_t main() {
@@ -35,3 +35,4 @@ int32_t main() {
 
     return 0;
 }
+
