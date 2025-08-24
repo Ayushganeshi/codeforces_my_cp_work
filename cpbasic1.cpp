@@ -7,7 +7,6 @@
 
 
 #define umap unordered_map
-#define MP make_pair;
 #define vt vector
 #define all(x) begin(x), end(x)
 #define sz(x) (int)x.size()
@@ -48,4 +47,5 @@ int main()
     	return 0;
 
 }
+
 
