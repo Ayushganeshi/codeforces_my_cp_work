@@ -8,7 +8,7 @@ using namespace std;
 
 void solve() {
     string s;
-    cin >> s;
+    cin >>s;
     int z = 0, o = 0;
     for (auto x : s) {
         if (x == '0') z++;
@@ -40,3 +40,4 @@ int32_t main() {
 
     return 0;
 }
+
