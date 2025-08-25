@@ -25,7 +25,7 @@ int fx99(X93 *a, int n, int k) {
 
     while (1) {
         while (j < n && a[j].l <= p1) q.push(a[j++].x);
-        pr1(&q, &p1);
+        pr1(&q,&p1);
         if (q.empty()) break;
         p1 = q.top();
         q.pop();
@@ -49,3 +49,4 @@ int32_t main() {
     while (t--) solve();
     return 0;
 }
+
