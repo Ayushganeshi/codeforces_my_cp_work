@@ -11,7 +11,7 @@ void solve() {
     int mex,x;
     cin >> mex >> x;
 
-    int c = 0;
+    
 
     
     int xor_all = 0;
@@ -42,5 +42,6 @@ int32_t main() {
 
     return 0;
 }
+
 
 
