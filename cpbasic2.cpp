@@ -11,9 +11,10 @@ int main()
         cin>>x;
         a.push_back(x);
     }
-    for(int i=0;i<n;i++)
+    for(int i=0;i=n;i++)
     {
         cout<<a[i]<<" ";
     }
 }
+
 
