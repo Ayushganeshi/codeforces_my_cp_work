@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
    int num,ans,rem,mul;
-        cout<<"enter the number";
+        cout<<"enter   the number";
         cin>>num;
         ans=0;
         mul=1;
@@ -16,4 +16,5 @@ int main() {
         }
         cout<<ans<<endl;
     return 0;
+
 }
