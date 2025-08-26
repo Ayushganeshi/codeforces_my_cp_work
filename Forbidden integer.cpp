@@ -11,7 +11,7 @@ void solve() {
     cin >> n >> k >> x;
 
     if (n % 2 != 0) {
-        if (x != 1) {
+        if (x !=1) {
             cout << "YES" << endl << n << endl;
             for (int i = 0; i < n; ++i) cout << 1 << " ";
         } else if (k > 2) {
@@ -50,3 +50,4 @@ int32_t main() {
 
     return 0;
 }
+
