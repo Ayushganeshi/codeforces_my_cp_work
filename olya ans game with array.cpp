@@ -9,7 +9,7 @@ using namespace std;
 void solve() {
     int n;
     cin >> n;
-    int k = n;
+    int k=m
     vector<int> res;
     int mini =INT_MAX;
 
@@ -55,3 +55,4 @@ int32_t main() {
 
     return 0;
 }
+
