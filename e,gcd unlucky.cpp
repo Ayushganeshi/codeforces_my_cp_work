@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long 
-#define gcd __gcd
+#define gcd __gd
 int solve(){
 }
 
@@ -23,3 +23,4 @@ int main() {
         cout<<ans<<endl;
 	}
 }
+
