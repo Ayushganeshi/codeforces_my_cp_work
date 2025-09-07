@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std
 // AUTHOR:->Ayush Kumar Gupta
-//      !!CHESS & CODE!!
+//      !!CHESS   & CODE!!
 int main(){
     int num,rem;
     int ans;
@@ -17,3 +17,4 @@ int main(){
     }
     cout<<ans;
 }
+
