@@ -5,7 +5,7 @@ using namespace std;
 
 
 // AUTHOR:->Ayush Kumar Gupta 
-//       !! CHESS & CODE!!
+//       !! CHESS & CODE !!
 
 void solve() {
     int mex,x;
@@ -42,6 +42,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
