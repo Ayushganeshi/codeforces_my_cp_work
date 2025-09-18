@@ -12,7 +12,7 @@ void solve() {
     vector<int> a(n), b(n);
     vector<pair<int, int>> v;
 
-    for (int i = 0; i < n; i++) cin >> a[i];
+    for (int i = 0; i < n; i++) cin >> a [i];
     for (int i = 0; i < n; i++) {
         cin >> b[i];
         v.push_back({b[i], a[i]});
@@ -46,4 +46,5 @@ int32_t main() {
 
     return 0;
 }
+
 
