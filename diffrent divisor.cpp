@@ -13,7 +13,7 @@ int prime(int n) {
     if(n % 2 == 0) 
         ++n;
     while (true) {
-        bool isPrime = true;
+        bool isPrime =   true;
         for (int i = 3; i * i <= n; i += 2) {
             if (n % i == 0) {
                 isPrime = false;
@@ -44,5 +44,6 @@ int32_t main() {
 
     return 0;
 }
+
 
 
