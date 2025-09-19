@@ -10,7 +10,7 @@ void solve() {
     int a, b;
     cin >> a >> b;
 
-    int diff = abs(a - b);
+    int diff =  abs(a - b);
 
     if (diff == 0) {
         cout << 0 << " " << 0 <<endl;
@@ -35,4 +35,5 @@ int32_t main() {
 
     return 0;
 }
+
 
