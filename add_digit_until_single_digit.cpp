@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int ans=0;
     int num  ,rem;
-    cout<<"enter the number";
+    cout<<"enter the  number";
     cin>>num;
     while(num>0){
         rem=num%10;
@@ -21,3 +21,4 @@ int main(){
     cout<<ans;
 
 }
+
