@@ -9,7 +9,7 @@ using namespace std;
 class cmp {
 public: 
     bool operator()(pair<int, int> &p1, pair<int, int> &p2) {
-        int a = p1.first, b = p1.second;
+        int a =   p1.first, b = p1.second;
         int c = p2.first, d = p2.second;
         if (a != c) return a > c;
         else return b < d;
@@ -51,3 +51,4 @@ int32_t main() {
 
     return 0;
 }
+
