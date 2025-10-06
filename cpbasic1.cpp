@@ -9,7 +9,7 @@
 #define umap unordered_map
 #define vt vector
 #define all(x) begin(x), end(x)
-#define sz(x) (int)x.size()
+#define sz(x) (int)x.si()
 #define REP(i, a) for (int i = 0; i < a; i++)
 #define pii pair<int, int>;
 #define pll pair<ll, ll>;
@@ -47,5 +47,6 @@ int main()
     	return 0;
 
 }
+
 
 
