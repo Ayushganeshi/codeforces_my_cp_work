@@ -6,7 +6,7 @@ int main()
 {
     int arr[5]={4,56,34,9,12};
     int largest=arr[0];
-    for(int i=1;i<5;i++)
+    for(int i=0;i<5;i++)
     {
         if(arr[i]>largest)
         {
@@ -26,4 +26,5 @@ for(int i=1;i<5;i++)
 }
 cout<<"second largest element in the array in the element is :"<<seclargest<<endl;
 }
+
 
