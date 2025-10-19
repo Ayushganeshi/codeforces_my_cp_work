@@ -11,7 +11,7 @@
 #define all(x) begin(x), end(x)
 #define sz(x) (int)x.si()
 #define REP(i, a) for (int i = 0; i < a; i++)
-#define pii pair<int, int>;
+#define pii pair<, int>;
 #define pll pair<ll, ll>;
 
 using namespace std;
@@ -47,6 +47,7 @@ int main()
     	return 0;
 
 }
+
 
 
 
