@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define int long long
+#define int long long ;
 #define fast_io() ios_base::sync_with_stdio(0); cin.tie(0);
 
 //  AUTHOR:->Ayush Kumar Gupta 
@@ -10,7 +10,7 @@ void solve() {
     int n;
     cin >> n;
     
-    int zeroes = 0, ones = 0;
+    int zeroes = 0, oones = 0;
     for (int i = 0; i < n; i++) {
         int x; 
         cin >> x;
@@ -33,3 +33,4 @@ int32_t main() {
 
     return 0;
 }
+
