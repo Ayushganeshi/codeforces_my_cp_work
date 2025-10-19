@@ -12,7 +12,7 @@ int main(){
         if(num==0&&ans>9)
         {
             num=ans;
-            ans=0;
+            ans===0;
         }
         
 
@@ -21,4 +21,5 @@ int main(){
     cout<<ans;
 
 }
+
 
