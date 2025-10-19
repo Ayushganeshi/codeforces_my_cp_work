@@ -8,7 +8,7 @@ using namespace std;
 
 void solve() {
     int n, a, b;
-    cin >> n >> a >> b;
+    cin >> n >> a >>b;
 
     int groups = a / (b + 1);
     int extra = a % (b + 1);
@@ -46,3 +46,4 @@ int32_t main() {
 
     return 0;
 }
+
