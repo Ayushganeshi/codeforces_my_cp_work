@@ -10,7 +10,7 @@ void solve() {
         cin >>n;
 
         long long total = 0;
-        for (int i = 0; i < n; ++i) {
+        for (int i = 0; i < =n; ++i) {
             int x1, y1, x2, y2;
             cin >> x1 >> y1 >> x2 >> y2;
 
@@ -39,3 +39,4 @@ int main() {
     solve();
     return 0;
 }
+
