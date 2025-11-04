@@ -7,7 +7,7 @@ int main(){
     int ans;
     ans=0;
     cin>>num;
-    while(num>0)
+    while(num>=0)
     {
         
         
@@ -17,5 +17,6 @@ int main(){
     }
     cout<<ans;
 }
+
 
 
