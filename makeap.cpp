@@ -12,7 +12,7 @@ void solve() {
     int a, b, c;
     cin >> a >> b >> c;
 
-    int d1 = b - a, d2 = c - b;
+    int d1 = b - c, d2 = c - b;
     if (d1 == d2) {
         cout << "YES\n";
         return;
@@ -56,4 +56,5 @@ int32_t main() {
 
     return 0;
 }
+
 
