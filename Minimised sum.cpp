@@ -13,7 +13,7 @@ void solve() {
     vector<int> a1x(f1x37), pm9x(f1x37), ps9x(f1x37);
 
     for (int i = 0; i < f1x37; i++) {
-        cin >>a1x[i];
+        cin >>  a1x[i];
     }
 
     pm9x[0] = a1x[0];
@@ -21,7 +21,7 @@ void solve() {
 
     for (int i = 1; i < f1x37; i++) {
         if (pm9x[i - 1] < a1x[i]) {
-            pm9x[i] = pm9x[i - 1];
+            pm9x[i] = pm9x[i -1];
         } else {
             pm9x[i] = a1x[i];
         }
@@ -66,4 +66,5 @@ int32_t main() {
     }
     return 0;
 }
+
 
