@@ -16,7 +16,7 @@ void solve() {
         int x;
         cin >> x;
 
-        if (x % 2 == 0) eve++;
+        if (x %2 == 0) eve++;
 
         if (x % k == 0) {
             mini = 0;
@@ -47,5 +47,6 @@ int32_t main() {
 
     return 0;
 }
+
 
 
