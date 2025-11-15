@@ -7,7 +7,7 @@ int main(){
     while(q--){
        
         int x;
-        ci n>>x;
+        cin>>x;
         if(x==1){
             int y;
             cin>>y;
@@ -15,9 +15,10 @@ int main(){
         }
         else{
             int y;
-            cin>>y;
+            cin>> y;
             cout<<m[y]<<endl;
         }
     }
 
 }
+
