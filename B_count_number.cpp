@@ -7,7 +7,7 @@ int main(){
     while(q--){
        
         int x;
-        cin>>x;
+        ci n>>x;
         if(x==1){
             int y;
             cin>>y;
@@ -19,4 +19,5 @@ int main(){
             cout<<m[y]<<endl;
         }
     }
+
 }
