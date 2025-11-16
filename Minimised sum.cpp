@@ -7,8 +7,8 @@ using namespace std;
 //       !! CHESS & CODE!! 
 
 void solve() {
-    int f1x37;
-    cin >> f1x37;
+    int n;
+    cin >>n;
 
     vector<int> a1x(f1x37), pm9x(f1x37), ps9x(f1x37);
 
@@ -66,5 +66,6 @@ int32_t main() {
     }
     return 0;
 }
+
 
 
