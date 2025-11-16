@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int n,q;
     cin>>n>>q;
-    map<int,int>m;
+    map<long ,long>m;
     while(q--){
        
         int x;
@@ -21,4 +21,5 @@ int main(){
     }
 
 }
+
 
