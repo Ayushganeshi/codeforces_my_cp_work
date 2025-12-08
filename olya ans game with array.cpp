@@ -33,7 +33,7 @@ void solve() {
         res.push_back(smin);
     }
 
-    sort(res.begin(), res.end());
+    sort(res.begin(),res.end());
     int sum = 0;
     sum += mini;
     int i = res.size() - 1;
@@ -41,7 +41,7 @@ void solve() {
     while (cnt++ < k - 1) {
         sum += res[i--];
     }
-    cout << sum <<endl;
+    cout << sum<<endl;
 }
 
 int32_t main() {
@@ -55,4 +55,5 @@ int32_t main() {
 
     return 0;
 }
+
 
