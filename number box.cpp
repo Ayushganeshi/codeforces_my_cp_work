@@ -12,7 +12,6 @@ using namespace std;
 #define fast_io() ios_base::sync_with_stdio(0); cin.tie(0);
 #define gcd __gcd
 #define ull unsigned long long
-#define endl "\n"
 
 //  AUTHOR:->Ayush Kumar Gupta 
 //       !! CHESS & CODE!! 
@@ -50,4 +49,5 @@ int32_t main() {
 
     return 0;
 }
+
 
