@@ -33,7 +33,7 @@ void solve() {
         } else {
             left--;
             position[idx] = left;
-            ans += 2 * val * abs(left);
+            ans += 2*val *abs(left);
         }
         goRight = !goRight;
     }
@@ -55,5 +55,6 @@ int32_t main() {
 
     return 0;
 }
+
 
 
