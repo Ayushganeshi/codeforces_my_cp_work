@@ -2,8 +2,7 @@
 using namespace std;
 #define ll long long 
 #define gcd __gd
-int solve(){
-}
+
 
 int main() {
 	int tc;
@@ -23,5 +22,6 @@ int main() {
         cout<<ans<<endl;
 	}
 }
+
 
 
