@@ -9,7 +9,7 @@ using namespace std;
 void solve() {
     int n, k;
     cin >> n >>k;
-    int mini = INT_MAX, op;
+    int mini = INT_MAX,mo;
     int eve = 0;
 
     for (int i = 0; i < n; i++) {
@@ -47,6 +47,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
