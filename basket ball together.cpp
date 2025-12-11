@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
-#define fast_io() ios_base::sync_with_stdio(0); cin.tie(0);
+#define fast_io() ios_base::sync_with_stdio(0); 
 
 //  AUTHOR:->Ayush Kumar Gupt
 //       !! CHESS & CODE!! 
@@ -40,4 +40,5 @@ int32_t main() {
 
     return 0;
 }
+
 
