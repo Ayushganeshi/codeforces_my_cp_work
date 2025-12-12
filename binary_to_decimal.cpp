@@ -10,7 +10,7 @@ int main() {
         while(num>0){
             rem=num%10;
             num/=10;
-            ans=rem*mul+ans;
+            ans=rem*mul+  ans;
             mul*=2;
 
         }
@@ -18,3 +18,4 @@ int main() {
     return 0;
 
 }
+
