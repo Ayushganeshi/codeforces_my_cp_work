@@ -7,7 +7,7 @@ int main()
     cout<<"enter the number:";
     cin>>num;
     store=num;
-    while(num>0)
+    while(num> 0)
     {
         rem=num%10;
         num/=10;
@@ -27,3 +27,4 @@ int main()
     
 
 }
+
