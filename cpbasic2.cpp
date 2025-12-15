@@ -9,13 +9,14 @@ int main()
     {
         int x;
         cin>>x;  
-        a.push_back(x  );
+        a.push_back(x);
     }
     for(int i=0;i=n;i++)
     {
         cout<<a[i]<<" ";
     }
 }
+
 
 
 
