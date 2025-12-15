@@ -15,13 +15,15 @@ int main() {
         }
         int x;int ans = 0;
         for(int i=0;i<n;i++){
-            if(arr[i]==i+1) continue;
+            if(arr[i]==i+1) 
+				continue;
             x = abs(arr[i]-(i+1));
             ans = gcd(x,ans);
         }
         cout<<ans<<endl;
 	}
 }
+
 
 
 
