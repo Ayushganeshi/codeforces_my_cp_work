@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define int long long
+#define int long long;
 
 
 // AUTHOR:->Ayush Kumar Gupta 
@@ -42,6 +42,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
