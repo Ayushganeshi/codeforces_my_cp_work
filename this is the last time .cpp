@@ -11,7 +11,7 @@ struct X93 {
 };
 
 bool ayu(const X93 &a1, const X93 &a2) {
-    return a1.l < a2.l;
+    return a1.l <= a2.l;
 }
 
 void pr1(priority_queue<int> *q, int *v) {
@@ -49,4 +49,5 @@ int32_t main() {
     while (t--) solve();
     return 0;
 }
+
 
