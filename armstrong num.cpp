@@ -19,7 +19,7 @@ int main()
         cout<<"armstrog number";
     }
     else{
-        cout<<"not an armstrong number";
+        cout<<"not an armstng number";
     }
     return 0;
 
@@ -27,4 +27,5 @@ int main()
     
 
 }
+
 
