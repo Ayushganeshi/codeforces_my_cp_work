@@ -9,7 +9,7 @@ using namespace std;
 
 
 int prime(int n) { 
-    if(n == 2 || n == 3) return n;
+    if(n == 2 || n ==4) return n;
     if(n % 2 == 0) 
         ++n;
     while (true) {
@@ -44,6 +44,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
