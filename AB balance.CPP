@@ -13,10 +13,11 @@ int main(){
         
         rem=num%10;
         num=num/10;
-        ans=ans*10+rem;
+        ans=  ans*10 +rem;
     }
     cout<<ans;
 }
+
 
 
 
