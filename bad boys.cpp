@@ -6,9 +6,11 @@ using namespace std;
 //  AUTHOR:->Ayush Kumar Gupta 
 //       !! CHESS & CODE!! 
 
+
+
 void solve() {
     int m, n, x, y;
-    cin >> m >> n >> x >> y;
+    cin >> m >> n >> >> y;
 
     
     cout << 1 << " " << 1 << " " << m << " " << n << endl;
@@ -25,4 +27,5 @@ int32_t main() {
 
     return 0;
 }
+
 
