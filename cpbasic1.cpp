@@ -24,7 +24,7 @@ void solve()
     int s,x,y,z;
     cin >> s >> x >> y >> z;
     if (s-x-y>=z) {
-        cout << 0 << endl;
+        cout << 0  << endl;
     }
     else if (s-x>=z||s-y>=z) {
         cout << 1 << endl;
@@ -47,6 +47,7 @@ int main()
     	return 0;
 
 }
+
 
 
 
