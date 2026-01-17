@@ -10,6 +10,8 @@ int main(){
         cin>>x;
         if(x==1){
             int y;
+
+            
             
             m[y]++;
         }
@@ -21,6 +23,7 @@ int main(){
     }
 
 }
+
 
 
 
