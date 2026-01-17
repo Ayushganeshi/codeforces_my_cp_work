@@ -10,7 +10,7 @@ int main(){
         cin>>x;
         if(x==1){
             int y;
-            cin>>y;
+            
             m[y]++;
         }
         else{
@@ -21,5 +21,6 @@ int main(){
     }
 
 }
+
 
 
