@@ -4,7 +4,7 @@ using namespace std;
 #define int long long;
 
 
-// AUTHOR:->Ayush Kumar Gupta 
+// AUTHOR:->Ayush 
 //       !! CHESS & CODE !!
 
 void solve() {
@@ -42,6 +42,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
