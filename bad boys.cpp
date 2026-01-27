@@ -13,7 +13,7 @@ void solve() {
     cin >> m >> n >> >> y;
 
     
-    cout << 1 << " " << 1 << " " << m << " " << n << endl;
+    cout << 1 << " "   << 1 << " " << m << " " << n << endl;
 }
 
 int32_t main() {
@@ -27,5 +27,6 @@ int32_t main() {
 
     return 0;
 }
+
 
 
