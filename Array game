@@ -8,7 +8,7 @@ const int maxN = 2e5+5;
 const int INF = 1e18;
 const int MOD = 1e9+7;
 #define F first
-#define S second
+#define S secon
 mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
  
 int rnd(int b){
