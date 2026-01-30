@@ -7,7 +7,7 @@ using namespace std;
 //       !! CHESS & CODE!! 
 
 // Problem: Triangles on a Rectangle
-// Link: https://codeforces.com/problemset/problem/1620/B
+
 
 void solve() {
     int w, h;
@@ -45,4 +45,5 @@ int32_t main() {
 
     return 0;
 }
+
 
