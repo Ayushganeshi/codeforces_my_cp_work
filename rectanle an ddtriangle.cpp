@@ -6,7 +6,7 @@ using namespace std;
 //  AUTHOR:->Ayush Kumar Gupta 
 //       !! CHESS & CODE!! 
 
-// Problem: Triangles on a Rectangle
+
 
 
 void solve() {
@@ -45,5 +45,6 @@ int32_t main() {
 
     return 0;
 }
+
 
 
