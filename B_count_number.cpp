@@ -4,6 +4,8 @@ int main(){
     int n,q;
     cin>>n>>q;
     map<long ,long>m;
+
+    
     while(q--){
        
         int x;
@@ -23,6 +25,7 @@ int main(){
     }
 
 }
+
 
 
 
