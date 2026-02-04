@@ -10,8 +10,10 @@ using namespace std;
 void solve() {
     int mex,x;
     cin >> mex >> x;
-
-    
+?? for (int i=0;i<n;i++
+)
+    [
+        
 
     
     int xor_all = 0;
@@ -42,6 +44,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
