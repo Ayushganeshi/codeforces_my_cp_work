@@ -11,6 +11,10 @@ using namespace std;
 void solve() {
     int m, n, x, y;
     cin >> m >> n >> >> y;
+    for (int i=0;i<n;i++)
+        {
+            int alpha=i+1;
+        }
 
     
     cout << 1 << " "   << 1 << " " << m << " " << n << endl;
@@ -27,6 +31,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
