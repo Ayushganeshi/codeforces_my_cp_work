@@ -11,7 +11,7 @@ void solve() {
     cin >> n;
     
     int zeroes = 0, oones = 0;
-    for (int i = 0; i < n; i++) {
+    for (int i = 0 ; i < n; i++) {
         int x; 
         cin >> x;
         if (x == 0) zeroes++;
@@ -33,4 +33,5 @@ int32_t main() {
 
     return 0;
 }
+
 
