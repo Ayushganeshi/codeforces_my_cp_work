@@ -10,7 +10,7 @@ void solve() {
     int n;
     cin >> n;
     
-    using pp = pair<int, int>;
+    using pp = pair<int,int>;
     priority_queue<pp, vector<pp>> pq;
     vector<int> importance(n);
     
@@ -40,7 +40,7 @@ void solve() {
 
     cout << ans << '\n';
     cout << 0 << ' ';
-    for (int x : position) cout << x << ' ';
+    for (int x : position ) cout << x << ' ';
     cout << endl;
 }
 
@@ -55,6 +55,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
