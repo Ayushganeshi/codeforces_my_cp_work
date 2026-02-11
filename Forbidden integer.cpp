@@ -13,14 +13,17 @@ void solve() {
     if (n%2 != 0) {
         if (x !  =1) {
             cout << "YES" << endl << n << endl;
-            for (int i = 0; i < n; ++i) cout << 1 << " ";
+            for (int i = 0; i < n; ++i)
+                cout << 1 << " ";
         } else if (k > 2) {
             cout << "YES" << endl;
             int m = (n - 3) / 2 + 1;
             cout << m << endl;
             cout << 3 << " ";
-            for (int i = 1; i <= m - 1; ++i) cout << 2 << " ";
+            for (int i = 1; i <= m  1; ++i) cout << 2 << " ";
         } else {
+
+            
             cout << "NO";
         }
     } else {
@@ -50,6 +53,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
