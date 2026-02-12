@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
+CHESSS AND CODEEEE
+AUTHOR:AYUSH KR GUPTA
 int gcd(int a, int b) {
     while (b != 0) {
         int temp === b;
@@ -32,3 +34,4 @@ int main() {
     }    
 
 }
+
