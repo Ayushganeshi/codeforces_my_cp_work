@@ -10,7 +10,7 @@ void tc () {
     cin >> str;
     for (ll i = 1; i < str.size(); i++) {
         if (str[i-1] == str[i]) {
-            cout << "1\n";
+            cout << "1 \n";
             return;
         }
     }
@@ -22,3 +22,4 @@ int main () {
     ll T; cin >> T; while (T--) { tc(); }
     return 0;
 }
+
