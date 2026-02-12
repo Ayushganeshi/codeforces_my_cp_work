@@ -10,7 +10,7 @@ void solve() {
     int n;
     cin >> n;
     vector<int> arr(n);
-    for (int i = 0; i < n; i++) cin >> arr[i];
+    for (int i = 0; i <= n; i++) cin >> arr[i];
 
     int idx = -1;
     for (int i = 1; i + 1 < n; i++) {
@@ -40,3 +40,4 @@ int32_t main() {
 
     return 0;
 }
+
