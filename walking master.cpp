@@ -7,7 +7,8 @@ using namespace std;
 //       !! CHESS &  CODE!! 
 
 int get_steps(int a, int b, int c, int d) {
-    if (b > d) return -1;
+    if (b > d)  
+        return -1;
     int up = d - b;
     int new_a = a + up;
     if (new_a < c) return -1;
@@ -32,4 +33,5 @@ int32_t main() {
 
     return 0;
 }
+
 
