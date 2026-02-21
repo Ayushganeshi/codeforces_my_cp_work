@@ -1,3 +1,6 @@
+//author:ayush kumar gupta;
+//chess and code
+
 bool chek(int n)
 {
     int count1=0;
