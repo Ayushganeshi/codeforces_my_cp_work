@@ -1,6 +1,13 @@
+//  AUTHOR:->Ayush Kumar Gupta 
+//       !! CHESS & CODE!! 
+
+
 #include<bits/stdc++.h>
 using namespace std;
 using ll=long long;
+
+//  AUTHOR:->Ayush Kumar Gupta 
+//       !! CHESS & CODE!! 
  
 struct Quad{ll a,b,c;}; 
  
