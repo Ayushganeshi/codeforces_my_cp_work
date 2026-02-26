@@ -27,7 +27,7 @@ void solve() {
     while (i < n) {
         if (k == 0 || v[i].first > p) break;
         int left = min(k, v[i].second);
-        cost += left * v[i].first;
+        cost += left  * v[i].first;
         k -= left;
         i++;
     }
@@ -47,6 +47,7 @@ int32_t main() {
 
     return 0;
 }
+
 
 
 
