@@ -36,7 +36,7 @@ void solve(){
 		}
 	}
  
-	cout << l << '\n';
+	cout << l <<endl;
 }
  
 signed main()
