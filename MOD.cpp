@@ -38,7 +38,7 @@ void solve() {
     sort(a.begin(), a.end());
     ll res = f(a);
     if (res >= inf) cout << "-1\n";
-    else cout << res << '\n';
+    else cout << res <<endl;
 }
 signed main() {
     cin.tie(0)->sync_with_stdio(0);
