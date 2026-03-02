@@ -33,7 +33,8 @@ void solve() {
     int n;
     cin >> n;
     vector<ll> a(n);
-    for (auto &x : a) cin >> x;
+    for (auto &x : a)
+        cin >> x;
     sort(a.begin(), a.end());
     ll res = f(a);
     if (res >= inf) cout << "-1\n";
