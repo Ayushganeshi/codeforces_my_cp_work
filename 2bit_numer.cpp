@@ -2,10 +2,7 @@
 
 using namespace std;
 
-int main() {
-#ifdef _DEBUG
-	freopen("input.txt", "r", stdin);
-
+int main() 
 	
 	int t;
 	cin >> t;
