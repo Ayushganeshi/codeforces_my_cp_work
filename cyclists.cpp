@@ -1,6 +1,4 @@
 #include<bits/stdc++.h>
-#define F(i,x,y) for (int i=(x);i<=(y);i++)
-#define R(i,x,y) for (int i=(x);i>=(y);i--)
 
 using namespace std;
 
