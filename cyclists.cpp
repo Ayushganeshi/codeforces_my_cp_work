@@ -1,16 +1,7 @@
 #include<bits/stdc++.h>
 #define F(i,x,y) for (int i=(x);i<=(y);i++)
 #define R(i,x,y) for (int i=(x);i>=(y);i--)
-#define p2i pair<int,int>
-#define ll long long
-#define fi first
-#define se second
-#define nb(x) (1<<((x)-1))
-#define x1 __melody1
-#define x2 __melody2
-#define y1 __melody3
-#define y2 __melody4
-#define iosoptim ios::sync_with_stdio(0);cin.tie(0);
+
 using namespace std;
 
 const bool MT = 1;
