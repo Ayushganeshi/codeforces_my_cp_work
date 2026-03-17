@@ -13,6 +13,7 @@ void solve(){
 	}
 	ld ans=0;
 	for(int i=n;i>=1;i--){
+		
 		ans=max(ans,ans*(1-p[i])+c[i]);
 	}
 	cout<<fixed<<setprecision(10)<<ans<<endl;
