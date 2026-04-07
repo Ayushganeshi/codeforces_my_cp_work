@@ -1,7 +1,7 @@
 class Solution {
 public:
-    int maximumProduct(vector<int>& nums) {
-        int n=nums.size();
+    int maximumProduct(vector<int>& nums) {///////////////////////////space compl,exitym  0(1))
+        int n=nums.size();/////////////////////////////////////////////time compexity   0(n)
 
         sort(nums.begin(),nums.end(),greater<int>());
         int res=nums[0]*nums[1]*nums[2];
