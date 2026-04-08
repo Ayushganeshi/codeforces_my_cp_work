@@ -4,7 +4,8 @@ public:
            for(auto & ch :paragraph)
            {
             if(!isalpha(ch))
-            ch=' ';
+            ch=' ';//////////////////////////////////////////   SPACE COMPLEXITY   0(N)
+                /////////////////////////////////////////        TIME COMPLEXITY  0(N);
             else
             ch=tolower(ch);
             
