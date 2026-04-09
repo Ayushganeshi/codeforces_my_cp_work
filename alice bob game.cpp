@@ -6,8 +6,8 @@ int a[55],b[55];
 void solve(){
     int n;cin>>n;
     set<int> sa,sb;
-    for(int i=1;i<=n;i++)cin>>a[i],sa.insert(a[i]);
-    for(int i=1;i<=n;i++)cin>>b[i],sb.insert(b[i]);
+    for(int i=1;i<=n;i++)cin>>a[i],sa.insert(a[i]);/////////////////////////////time complexity 0(n)
+    for(int i=1;i<=n;i++)cin>>b[i],sb.insert(b[i]);//////////////////////////////space complexity 0(n)
     if(sa.size()+sb.size()<4){
         cout<<"NO\n";
     }else{
