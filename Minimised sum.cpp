@@ -25,7 +25,8 @@ void solve() {
         } else {
             pm9x[i] = a1x[i];
         }
-        ps9x[i] = ps9x[i - 1] + pm9x[i];
+        ps9x[i] = ps9x[i - 1] + pm9x[i];////////////////////////////////time complexity0(n)
+        /////////////////////////////////////////////////////////////// space complexity0(n)
     }
 
     int res5 = ps9x[f1x37 - 1];
