@@ -6,8 +6,8 @@ int main()
 	
 	int t;
 	cin >> t;
-	while (t--) {
-		int n;
+	while (t--) {////////////////////////////////SPACE COMPLEXITY   0(n)
+		int n;//////////////////////////////////TIME COMPLEXITY     0(n)
 		cin >> n;
 		vector<int> a(n);
 		for (auto &it : a) cin >> it;
