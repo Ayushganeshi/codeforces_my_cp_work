@@ -1,16 +1,5 @@
 #include <bits/stdc++.h>
-#define endl '\n'
 
-	return (unsigned long long)rng()%b;
-}
-int power(int a, int b){
-	if(b==0)return 1;
-	if(b%2)return a*power(a,b-1)%MOD;
-	return power(a*a%MOD,b/2);
-}
-int inv(int a){
-	return power(a,MOD-2);
-}
 vector<int>fact(maxN);
 vector<int>invfact(maxN);
  
