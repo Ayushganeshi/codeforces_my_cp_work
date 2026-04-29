@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 vector<int>fact(maxN);
-vector<int>invfact(maxN);
+
  
  
 signed main(){
