@@ -5,7 +5,8 @@ int main(){
     cin>>n>>q;
     map<long ,long>m;
 
-    
+    ////////////////////////////// time complexity 0(n);
+    //////////////////////////     space complexity  0(n);
     while(q--){
        
         int x;
