@@ -8,6 +8,11 @@ using namespace std;
 
 void solve() {
     int n, k, x;
+
+
+
+     tuime complexity code 0(n);
+    soace complexty   0(n)
     cin >> n >> k >> x;
 
     if (n%2 != 0) {
