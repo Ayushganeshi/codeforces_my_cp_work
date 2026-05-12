@@ -5,7 +5,8 @@ using namespace std;
 
 //  AUTHOR:->Ayush Kumar Gupta 
 //       !! CHESS &&&&   CODE!! 
-
+                                                       ////// time complexity 0(n);
+                                                        ////// space compexity 0(n);
 class cmp {
 public: 
     bool operator()(pair<int, int> &p1, pair<int, int> &p2) {
