@@ -3,7 +3,9 @@ using namespace std;
 
 int main() {
     ios::sync_with_stdio(false);
-    cin.tie(nullptr);
+    cin.tie(nullptr);//////////////////////////////   time complexity  0(N)
+
+                    /////////////////////////////      Space complexity  0(N)
 
     int t;
     cin >> t;
