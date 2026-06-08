@@ -6,7 +6,8 @@ int main() {
     cin.tie(nullptr);
 
     int t;
-    cin >> t;
+    cin >> t;               ////////////time complexity o(n);
+                           //////////////  space complexityo(n);
 
     while (t--) {
         int l, r, d, u;
