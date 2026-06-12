@@ -1,20 +1,21 @@
 class Solution {
 public:
-    bool halvesAreAlike(string s) {
-        int n=s.size();
-        int ans1=0;
-        int ans2=0;
-        for(int i=0;i<n/2;i++)
+    string destCity(vector<vector<string>>& paths) {
+        unordered_set<string>st;
+        for(auto &path : paths)
         {
-            if(string("AEIOUaeiou").find(s[i]!=string::npos))
-            ans1++;
+            string source=path[0];
+            st.insert(source);
         }
-        for(int i=n/2;i<n;i++)
+        for(auto &path : paths)
         {
-            if(string("AEIOUaeiou").find(s[i]!=string::npos))
-            ans2++;
+            string dest=path[1];
+            if(st.find(dest)==st.end())
+            {
+                return dest;
+            }
         }
-        if(ans1==ans2)return true;
-        return false;
+        return "";
+
     }
 };
