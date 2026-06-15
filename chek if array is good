@@ -1,0 +1,25 @@
+class Solution {
+public:
+    bool isGood(vector<int>& nums) {
+        int n=nums.size();
+        bool flag=false;
+        bool flag1=false;
+        sort(nums.begin(),nums.end());//1233
+        for(int i=0;i<n-1;i++)
+        {
+            if(nums[i]!=i+1)
+            {
+                flag=true;
+                return false;
+            }
+        }
+        if(nums[n-1]==n-1)
+        {
+            flag1=true;
+        }
+        if(flag==false  && flag1==true)
+        return true;
+        else
+        return false;
+    }
+};
