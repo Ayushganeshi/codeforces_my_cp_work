@@ -17,7 +17,11 @@ void solve(){
         m = l + (r - l) / 2;
         long long ost = (m - 1);
         for (int i = 0; i < x; i++){
-            ost -= ost / y;
+            ost -= ost / y;                          /////////////////// time complexity 0(log(n);
+                                                   
+
+
+         
         }
         if (ost + 1 > k){
             r = m - 1;
