@@ -1,0 +1,31 @@
+class Solution {
+public:
+    int rob(vector<int>& nums) {
+        int n=nums.size();
+        if(nums.size()==1)
+        return nums[0];
+
+        vector<int>dp(n+1,0);
+        dp[0]=0;
+        dp[1]=nums[0];
+        for(int i=1;i<=n-1;i++)//taking first house ayush
+        {
+            int steal=((i-2>=0)? dp[i-2] :0)+nums[i-1];
+            int skip=dp[i-1];
+            dp[i]=max(steal,skip);
+        }
+        int res1=dp[n-1];
+        dp.assign(n+1,0);
+        //skip first house ,so that u can tale the lst house;
+        dp[0]=0;
+        dp[1]=0;//since ur skipping the first house
+        for(int i=2;i<=n;i++)//taking first house ayush
+        {
+            int steal=((i-2>=0)? dp[i-2] :0)+nums[i-1];
+            int skip=dp[i-1];
+            dp[i]=max(steal,skip);
+        }
+        int res2=dp[n];
+        return max(res1,res2);
+    }
+};
